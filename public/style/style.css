@@ -200,6 +200,11 @@ a:hover {
     margin: 30px 0 0 100px;
 }
 
+.exibir span {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f52b2b;
+}
 .exibir-forte {
     background-color: #1f29372f;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);

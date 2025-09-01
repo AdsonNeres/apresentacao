@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 30px 0 0 350px;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    margin: 30px 300px 0 0;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #b8f52b;
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 65px;
+}
+
+.inicio-texto {
+    color: #f9faf8;
+    margin: 45px 0 0 250px;
+}
+
+.inicio-texto h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.inicio-texto p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+ .inicio-imagem {
+    flex: 1;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    margin: 0 380px 0 0;
+}
+
+.poke p {
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 1.4;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #b8f52b;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.img2 {
+    width: 70%;
+    height: auto;
+    margin: 0 150px 40px 0;
+}
+
+.inicio-imagem a {
+    flex-shrink: 3;
+}
+
+.information {
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.information .exibir {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px; 
+}
+
+.information h2 {
+    font-size: 36px;
+    text-align: center; 
+}
+
+.poke {
+    background-color: #1f2937;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+#bulba {
+    background-color: #8cbd8b;
+    margin-left: 30px;
+}
+
+#char {
+    background-color: #f2e775;
+}
+
+#squirtle {
+    background-color: #90c4d1;
+}
+
+#chiko {
+    background-color: #d4e6ae;
+}
+
+.char, .squirtle, .bulba {
+    width: 250px;
+}
+.chiko {
+    width: 400px;
+}
+
+.squirtle {
+    margin-top: 30px;
+}
+
+.char {
+    margin-top: 10px;
+}
+
+#squirtle, #char, #bulba, #chiko  {
+    text-align: center;
+    padding: 20px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.poke-forte {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 40px;
+}
+
+.poke-forte-texto {
+    max-width: 800px;
+    padding: 20px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.poke-forte-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.poke-forte-texto img {
+    width: 400px;
+    height: auto;
+    margin: 30px 0 0 100px;
+}
+
+.exibir-forte {
+    background-color: #1f29372f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: auto;
+    margin: 0 300px 0 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.exibir-forte > p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exibir-poke-forte {
+    background-color: #1f2937;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #f9faf8;
+    text-align: center;
+}
+
+.exibir-poke-forte p {
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mewtwo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #b8f52b;
+}
+
+.saiba-mais {
+    background-color: #f9faf8;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.saiba-mais h2 {
+    color: #1f2937;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.saiba-mais-texto {
+    background-color: #3882f6;
+    max-width: 900px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.saiba-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.saiba-link:hover {
+    background-color: #b8f52b;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
